@@ -196,11 +196,10 @@ Vercel Hobby limita el uso al cupo gratuito en lugar de cobrar consumo adicional
 
 ## URLs de producción
 
-Completar después del primer despliegue:
-
-- SPA: `PENDIENTE — https://________.vercel.app`
-- API: `PENDIENTE — https://________.onrender.com`
-- Swagger: `PENDIENTE — https://________.onrender.com/swagger`
+- SPA: [https://taskrino.vercel.app](https://taskrino.vercel.app)
+- API: [https://taskrino-api.onrender.com](https://taskrino-api.onrender.com)
+- Swagger UI: [https://taskrino-api.onrender.com/swagger](https://taskrino-api.onrender.com/swagger)
+- Health check: [https://taskrino-api.onrender.com/health](https://taskrino-api.onrender.com/health)
 
 ## Verificación
 

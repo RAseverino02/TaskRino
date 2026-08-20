@@ -26,4 +26,8 @@ Las claves usan el formato estándar de configuración de .NET. En producción s
 - `/swagger`: documentación interactiva con botón Authorize.
 - `/health`: comprobación de disponibilidad.
 
-Las URLs de producción se completan en el README raíz después del despliegue.
+## Producción
+
+- API: [https://taskrino-api.onrender.com](https://taskrino-api.onrender.com)
+- Swagger UI: [https://taskrino-api.onrender.com/swagger](https://taskrino-api.onrender.com/swagger)
+- Health check: [https://taskrino-api.onrender.com/health](https://taskrino-api.onrender.com/health)

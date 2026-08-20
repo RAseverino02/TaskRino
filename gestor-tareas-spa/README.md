@@ -16,4 +16,4 @@ npm run dev
 
 Importar esta carpeta como Root Directory en Vercel Hobby y configurar `VITE_API_URL` con la API pública. `vercel.json` garantiza que las rutas del SPA regresen a `index.html`.
 
-La URL pública se completa en el README raíz después del despliegue.
+URL pública: [https://taskrino.vercel.app](https://taskrino.vercel.app)
