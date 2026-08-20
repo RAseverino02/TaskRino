@@ -3,7 +3,6 @@ services:
     name: taskrino-api
     runtime: docker
     plan: free
-    rootDir: gestor-tareas-api
     dockerfilePath: ./gestor-tareas-api/Dockerfile
     dockerContext: ./gestor-tareas-api
     healthCheckPath: /health
