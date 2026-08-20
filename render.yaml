@@ -1,0 +1,37 @@
+services:
+  - type: web
+    name: taskrino-api
+    runtime: docker
+    plan: free
+    rootDir: gestor-tareas-api
+    dockerfilePath: ./gestor-tareas-api/Dockerfile
+    dockerContext: ./gestor-tareas-api
+    healthCheckPath: /health
+    autoDeployTrigger: commit
+    envVars:
+      - key: ASPNETCORE_ENVIRONMENT
+        value: Production
+      - key: ConnectionStrings__DefaultConnection
+        sync: false
+      - key: Jwt__Key
+        generateValue: true
+      - key: Jwt__Issuer
+        value: GestorTareas.Api
+      - key: Jwt__Audience
+        value: GestorTareas.Spa
+      - key: CORS_ORIGINS
+        sync: false
+      - key: Database__ApplyMigrations
+        value: true
+      - key: Storage__Provider
+        value: S3
+      - key: Storage__Endpoint
+        sync: false
+      - key: Storage__Region
+        sync: false
+      - key: Storage__Bucket
+        value: adjuntos
+      - key: Storage__AccessKey
+        sync: false
+      - key: Storage__SecretKey
+        sync: false

@@ -1,0 +1,31 @@
+# .NET
+**/bin/
+**/obj/
+*.user
+*.suo
+uploads/
+
+# React / Node
+node_modules/
+dist/
+.vite/
+.artifacts/
+
+# Secrets and local configuration
+.env
+.env.local
+.env.*.local
+appsettings.Production.json
+
+# IDE / OS
+.vs/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Archivo local ajeno al monorepo
+cargar proyecto.xlsx
+
+# Documentos locales de presentación con versiones anteriores de la marca
+docs/*.docx

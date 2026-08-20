@@ -1,0 +1,14 @@
+@GestorTareas.Api_HostAddress = http://localhost:5080
+
+GET {{GestorTareas.Api_HostAddress}}/health
+Accept: application/json
+
+###
+
+POST {{GestorTareas.Api_HostAddress}}/api/v1/auth/login
+Content-Type: application/json
+
+{
+  "email": "severino@rino.com",
+  "password": "S3ver1n0"
+}
